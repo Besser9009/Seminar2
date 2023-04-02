@@ -15,8 +15,8 @@ else{
 }
 //Второе решение
 System.Console.Write("Введите число: ");
-int num1 = int.Parse(Console.ReadLine());
-if (num1 % 7 == 0 && num1 % 23 == 0){
+int num2 = int.Parse(Console.ReadLine());
+if (num2 % 7 == 0 && num2 % 23 == 0){
     System.Console.WriteLine("Да, кратно 23 и 7");
 }
 else{
